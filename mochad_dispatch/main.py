@@ -161,7 +161,7 @@ class MochadClient:
         """
         Decode the "Func:" parameter of an RFSEC message
         """
-        MOTION_DOOR_WINDOW_SENSORS = ['DS10A', 'DS12A', 'MS10A', 'SP554A']
+        MOTION_DOOR_WINDOW_SENSORS = ['DS10A', 'DS12A', 'MS10A', 'MS14A', 'MS16A']
         SECURITY_REMOTES = ['KR10A', 'KR15A', 'SH624']
         func_list = raw_func.split('_')
         func_dict = dict()
